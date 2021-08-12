@@ -1,0 +1,85 @@
+body {
+  background: url(./images/pattern-background-desktop.svg) no-repeat ;
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat ;
+  width: 100vw;
+  height: 100%;
+}
+
+.container {
+  margin: auto;
+  width: 430px;
+  border: none;
+  margin-top: 55px;
+  border-radius: 20px;
+  background-color: white;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.content {
+  padding: 0 30px;
+}
+
+.text {
+  text-align: center;
+}
+
+.plan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(235, 238, 214, 0.43);
+  border-radius: 10px;
+}
+
+.plan .plan-info h4,
+.plan .plan-info p {
+  margin: 0;
+}
+
+.plan img {
+  margin-right: 61px;
+  margin: 25px;
+}
+
+.plan-info {
+  margin-right: 50px;
+}
+
+.plan a {
+  text-decoration: none;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.cancel-btn {
+  font-weight: bold;
+  width: 85%;
+  text-align: center;
+  border: none;
+  padding: 15px 0;
+  margin: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.proceed-btn {
+  font-weight: bolder;
+  color: white;
+  background-color: blue;
+  width: 85%;
+  text-align: center;
+  border: none;
+  padding: 15px 0;
+  margin: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+}
